@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>幻象金融 Mirage Finance — 隱私政策與服務條款</title>
+<!-- 本檔由 scripts/generate-legal-pages.mjs 自 mirror_finance_app/lib/features/settings/presentation/pages/legal_content.dart 產生。請勿手動編輯——改內容請改該 Dart 檔後重跑腳本（CI 會比對）。 -->
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #fbfbfd; --surface: #fff; --text: #1d1d1f; --muted: #6e6e73;
+    --line: #e3e3e6; --accent: #0a6cff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #131316; --surface: #1c1c20; --text: #f2f2f4; --muted: #a1a1a8;
+      --line: #2e2e34; --accent: #5b9dff;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 2.5rem 1.25rem 4rem; background: var(--bg); color: var(--text);
+    font: 16px/1.75 -apple-system, "Segoe UI", "Noto Sans TC", "PingFang TC", sans-serif;
+  }
+  main { max-width: 46rem; margin: 0 auto; }
+  header { margin-bottom: 2.5rem; }
+  h1 { font-size: 1.75rem; letter-spacing: -0.01em; margin: 0 0 .35rem; }
+  .sub { color: var(--muted); margin: 0; font-size: .95rem; }
+  .doc {
+    background: var(--surface); border: 1px solid var(--line); border-radius: 14px;
+    padding: 1.5rem 1.6rem; margin-bottom: 1.5rem;
+  }
+  h2 { font-size: 1.3rem; margin: 0 0 .25rem; }
+  h3 { font-size: 1.02rem; margin: 1.6rem 0 .4rem; }
+  .updated { color: var(--muted); font-size: .875rem; margin: 0 0 1rem; }
+  .intro { margin: 0 0 .5rem; }
+  p { margin: .5rem 0; }
+  ul { margin: .4rem 0 .8rem; padding-left: 1.25rem; }
+  li { margin: .3rem 0; }
+  a { color: var(--accent); }
+  footer { color: var(--muted); font-size: .875rem; text-align: center; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>幻象金融 Mirage Finance</h1>
+    <p class="sub">隱私政策與服務條款</p>
+  </header>
+
+  <section class="doc">
+    <h2>隱私政策</h2>
+    <p class="updated">最後更新：2026 年 8 月 4 日</p>
+    <p class="intro">幻象金融（Mirage Finance，以下稱「本 App」）致力於保護你的隱私，並讓你對自己的財務資料保有完整掌控權。本政策說明我們如何蒐集、使用與保護你的資訊。</p>
+    <h3>1. Local-First（本機優先）架構</h3>
+    <p>本 App 採用 local-first 設計，這代表：</p>
+    <ul>
+      <li>你所有的財務紀錄、帳戶、預算，預設一律僅儲存於你的裝置本機的「加密」資料庫中。</li>
+      <li>除非你主動註冊帳號並啟用雲端同步（僅雲端版提供），否則我們不會將你的財務資料傳送到任何伺服器。</li>
+    </ul>
+    <h3>2. 我們蒐集哪些資訊</h3>
+    <p>A. 離線使用（本地買斷版）：若未啟用雲端同步，我們「不蒐集任何個人或財務資料」，一切都留在你的裝置上。</p>
+    <p>B. 雲端同步（僅雲端版）：若你註冊帳號使用雲端同步，我們會蒐集你的電子郵件、經雜湊處理的密碼，以及為了跨裝置同步所需的加密財務資料。</p>
+    <p>C. 購買資訊：若你購買付費版本，交易由 Apple（App Store）或 Google（Play 商店）安全處理；我們僅取得用於解鎖功能的收據驗證憑證，「無法取得你的信用卡資料」。</p>
+    <p>D. 診斷資訊：本 App 使用本機日誌（不含你的財務交易內容）協助排除問題，預設不上傳。</p>
+    <h3>2-1. 裝置權限與相機／相簿</h3>
+    <p>本 App 僅在你主動觸發某項功能時才請求對應權限，且可隨時於系統設定中撤銷。</p>
+    <ul>
+      <li>相機／相簿：用於兩項功能——(1)「持倉截圖匯入」以文字辨識自動填入股票代號與股數；(2) 為單筆交易附加收據照片。</li>
+      <li>「持倉截圖匯入」的文字辨識「完全在你的裝置上完成」（端上辨識），影像不會被上傳到任何伺服器，辨識後也不保留該影像。</li>
+      <li>交易附件：本地買斷版的照片「僅儲存於你的裝置」；僅當你使用雲端版並啟用同步時，附件才會加密上傳至你個人的儲存空間，且僅你本人可存取。</li>
+      <li>生物辨識（Face ID／指紋）：由作業系統處理並僅回傳「通過／不通過」，本 App「無法取得也不會儲存」你的生物特徵資料。</li>
+      <li>通知：用於預算警示、信用卡繳款日與週期記帳提醒，內容於裝置本機產生。</li>
+    </ul>
+    <h3>3. 我們如何使用這些資訊</h3>
+    <p>我們僅為以下目的使用所蒐集的資料：</p>
+    <p>我們「絕不販售、出租或分享」你的個人或財務資料給第三方資料仲介或廣告網路。</p>
+    <ul>
+      <li>提供 App 核心功能（例如雲端版的跨裝置同步）。</li>
+      <li>驗證你的身分並管理你的付費層級。</li>
+    </ul>
+    <h3>4. 資料安全</h3>
+    <ul>
+      <li>本機資料庫以業界標準的 SQLite 加密保護。</li>
+      <li>所有雲端傳輸（若啟用）均以 TLS/HTTPS 加密。</li>
+      <li>後端採嚴格的租戶隔離，確保你的資料無法被其他使用者存取。</li>
+      <li>App 提供「隱私模糊」在切換 App 時遮蔽餘額，並支援生物辨識 / PIN 解鎖。</li>
+    </ul>
+    <h3>5. 資料刪除與你的權利</h3>
+    <p>你有權要求完整刪除你的資料。</p>
+    <ul>
+      <li>App 內刪除：前往「設定 → 危險區域 → 刪除帳號」，輸入「DELETE」即可立即清除所有本機資料庫與偏好設定；若使用雲端版，同時會向伺服器發出永久刪除請求。此操作無法復原。</li>
+      <li>你也可以直接來信要求刪除資料。</li>
+    </ul>
+    <h3>6. 本政策的變更</h3>
+    <p>我們可能不時更新本政策以反映做法或法規變動。重大變更將以更新頂端的「最後更新日期」或 App 內通知方式告知。</p>
+    <h3>7. 聯絡我們</h3>
+    <p>若對本政策或我們如何處理你的資料有任何疑問，請來信：</p>
+    <ul>
+      <li>yang@reformtek.com.tw</li>
+    </ul>
+  </section>
+
+  <section class="doc">
+    <h2>服務條款</h2>
+    <p class="updated">最後更新：2026 年 8 月 4 日</p>
+    <p class="intro">歡迎使用幻象金融（Mirage Finance）。當你下載、安裝或使用本 App，即表示你同意本服務條款。若你不同意，請勿使用本 App。</p>
+    <h3>1. 服務性質（重要）</h3>
+    <p>本 App 是一款「個人記帳與財務管理工具」，僅供你記錄與檢視自己的財務狀況。</p>
+    <p>App 內所有數字（淨資產、報酬率、貸款試算等）皆為「你自行輸入的資料所產生的計算結果」，僅供參考，不構成任何財務、投資、稅務或法律建議。實際財務決策請諮詢合格專業人士。</p>
+    <ul>
+      <li>本 App「不提供貸款」，也不是任何形式的放款或信用服務。</li>
+      <li>本 App「不撮合交易」、不提供投資顧問、證券買賣或任何投資建議。</li>
+      <li>本 App「不託管、不保管、不移轉」任何資金或有價證券。</li>
+    </ul>
+    <h3>2. 授權</h3>
+    <p>在你遵守本條款的前提下，我們授予你一份個人、非專屬、不可轉讓的授權，於你擁有或控制的裝置上使用本 App。</p>
+    <h3>3. 你的責任與資料備份</h3>
+    <ul>
+      <li>你須為自己輸入的資料正確性負責。</li>
+      <li>本地買斷版的資料儲存於你的裝置本機。「請務必自行定期備份」（App 內提供匯出功能）。裝置遺失、損壞、刪除 App 或重設，可能導致本機資料永久遺失，我們無法為你救回。</li>
+    </ul>
+    <h3>4. 付費與購買</h3>
+    <ul>
+      <li>本地買斷版為「一次性買斷」，於購買後永久解鎖對應功能，非訂閱制。</li>
+      <li>所有購買均透過 Apple App Store 或 Google Play 進行，退款依各平台政策辦理。</li>
+    </ul>
+    <h3>5. 免責聲明與責任限制</h3>
+    <p>本 App 以「現狀」提供，於法律允許的最大範圍內，我們不對其適合特定用途、不中斷或無錯誤作任何擔保。</p>
+    <p>在法律允許範圍內，對於因使用或無法使用本 App 所生之任何間接、附帶或衍生性損害（包含資料遺失、財務損失），我們不負賠償責任。</p>
+    <h3>6. 條款變更</h3>
+    <p>我們可能不時修訂本條款，並以更新「最後更新日期」方式公告。持續使用本 App 即視為接受修訂後條款。</p>
+    <h3>7. 準據法</h3>
+    <p>本條款之解釋與適用，以中華民國（台灣）法律為準據法。</p>
+    <h3>8. 聯絡我們</h3>
+    <p>如對本條款有任何疑問，請來信：</p>
+    <ul>
+      <li>yang@reformtek.com.tw</li>
+    </ul>
+  </section>
+  <footer>聯絡我們：<a href="mailto:yang@reformtek.com.tw">yang@reformtek.com.tw</a></footer>
+</main>
+</body>
+</html>
